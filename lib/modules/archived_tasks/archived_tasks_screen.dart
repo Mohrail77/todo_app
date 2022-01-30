@@ -15,7 +15,6 @@ class ArchivedTasksScreen extends StatelessWidget {
       listener: (context, state) {},
       builder: (context, state) {
         var tasks = AppCubit.get(context).archiveTasks;
-
         return tasksBuilder(
           tasks: tasks,
         );
