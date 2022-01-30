@@ -4,6 +4,8 @@ import 'package:todo_app/shared/components/components.dart';
 import 'package:todo_app/shared/cubit/cubit.dart';
 import 'package:todo_app/shared/cubit/states.dart';
 
+//new archive
+
 class ArchivedTasksScreen extends StatelessWidget {
   const ArchivedTasksScreen({Key key}) : super(key: key);
 
@@ -13,7 +15,6 @@ class ArchivedTasksScreen extends StatelessWidget {
       listener: (context, state) {},
       builder: (context, state) {
         var tasks = AppCubit.get(context).archiveTasks;
-
         return tasksBuilder(
           tasks: tasks,
         );
