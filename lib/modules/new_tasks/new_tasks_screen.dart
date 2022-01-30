@@ -5,6 +5,8 @@ import 'package:todo_app/shared/components/components.dart';
 import 'package:todo_app/shared/cubit/cubit.dart';
 import 'package:todo_app/shared/cubit/states.dart';
 
+//new task
+
 class NewTasksScreen extends StatelessWidget {
   const NewTasksScreen({Key key}) : super(key: key);
 
