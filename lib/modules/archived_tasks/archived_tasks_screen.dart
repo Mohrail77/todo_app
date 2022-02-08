@@ -5,7 +5,6 @@ import 'package:todo_app/shared/cubit/cubit.dart';
 import 'package:todo_app/shared/cubit/states.dart';
 
 //new archive
-//new one
 
 class ArchivedTasksScreen extends StatelessWidget {
   const ArchivedTasksScreen({Key key}) : super(key: key);
